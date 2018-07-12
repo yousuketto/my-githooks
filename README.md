@@ -8,8 +8,8 @@ This repository is my githooks.
 ```
 go build github.com/yousuketto/my-githooks/insert-branch-prefix-into-comment.go
 ```
-1. Copy generated file to `.git/hooks/`.
-1. Create the following `prepare-commit-msg`.
+2. Copy generated file to `.git/hooks/`.
+3. Create the following `prepare-commit-msg`.
 ```
 #!/bin/sh
 $(dirname $0)/insert-branch-prefix-into-comment $@
