@@ -2,7 +2,7 @@
 This repository is my githooks.
 
 ## insert-branch-prefix-into-comment
-`insert-branch-prefix-into-comment` insert branch prefix(the part before '/' the branch name) into commit comment.
+`insert-branch-prefix-into-comment` insert the branch prefix(the part before '/' of the branch name) into commit comment.
 
 1. Build
 ```
