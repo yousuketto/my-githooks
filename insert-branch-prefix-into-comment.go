@@ -36,7 +36,8 @@ func main() {
 
 	branchName, err := loadCurrentBranchName()
 	if err != nil {
-		log.Fatal(err)
+		// log.Fatal(err)
+		branchName = ""
 	}
 
 	prefixName := extractPrefixName(branchName)
